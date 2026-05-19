@@ -1,0 +1,22 @@
+<configuration>
+    <input>
+        <net-file value="2_network/east_sarajevo_test.net.xml"/>
+        <route-files value="3_demand/routes_test.rou.xml"/>
+        <additional-files value="4_detectors/detectors_test.add.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <output>
+        <summary-output value="5_outputs/summary.xml"/>
+        <tripinfo-output value="5_outputs/tripinfo.xml"/>
+    </output>
+</configuration>

@@ -1,0 +1,6 @@
+KPI,Formula,Unit,Test Scenario Value,Notes
+Average Speed,mean(speed),km/h,34.5,Populate from tripinfo or edgeData
+Traffic Volume,count(vehicles),veh/h,1970,From detector outputs
+Average Delay,travel time - free flow,s/veh,22.8,Compare scenarios
+CO2 Emissions,sum(CO2),g,145000,Requires emission output option in SUMO
+Queue Length,max(queue),m,95,Can be estimated from laneArea or edge data

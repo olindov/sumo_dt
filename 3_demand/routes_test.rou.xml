@@ -1,0 +1,13 @@
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5.0" minGap="2.5" maxSpeed="13.89"/>
+    <route id="west_east" edges="e_w_in e_mid e_e_out"/>
+    <route id="east_west" edges="e_e_in e_mid_rev e_w_out"/>
+    <route id="north_east" edges="e_n_in e_mid e_e_out"/>
+    <route id="south_west" edges="e_s_in e_w_out"/>
+
+    <!-- Morning peak test scenario -->
+    <flow id="f_we_peak" route="west_east" begin="0" end="3600" vehsPerHour="850" type="car"/>
+    <flow id="f_ew_peak" route="east_west" begin="0" end="3600" vehsPerHour="600" type="car"/>
+    <flow id="f_ne_peak" route="north_east" begin="0" end="3600" vehsPerHour="300" type="car"/>
+    <flow id="f_sw_peak" route="south_west" begin="0" end="3600" vehsPerHour="220" type="car"/>
+</routes>

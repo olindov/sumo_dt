@@ -1,0 +1,20 @@
+<connections>
+    <!-- Through movements -->
+    <connection from="e_w_in" to="e_mid"/>
+    <connection from="e_mid" to="e_e_out"/>
+    <connection from="e_e_in" to="e_mid_rev"/>
+    <connection from="e_mid_rev" to="e_w_out"/>
+
+    <!-- Junction turns -->
+    <connection from="e_w_in" to="e_n_out"/>
+    <connection from="e_w_in" to="e_s_out"/>
+    <connection from="e_n_in" to="e_mid"/>
+    <connection from="e_n_in" to="e_s_out"/>
+    <connection from="e_s_in" to="e_mid"/>
+    <connection from="e_s_in" to="e_n_out"/>
+
+    <connection from="e_e_in" to="e_n_out"/>
+    <connection from="e_e_in" to="e_s_out"/>
+    <connection from="e_n_in" to="e_w_out"/>
+    <connection from="e_s_in" to="e_w_out"/>
+</connections>

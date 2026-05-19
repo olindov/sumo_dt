@@ -1,0 +1,65 @@
+<mxfile>
+  <diagram name="Digital Twin East Sarajevo">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Sensors -->
+        <mxCell id="2" value="SENSORS&#xa;(Traffic counts, Video, Radar)"
+        style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;"
+        vertex="1" parent="1">
+          <mxGeometry x="20" y="200" width="180" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Edge -->
+        <mxCell id="3" value="EDGE PROCESSING&#xa;(Filtering, Aggregation)"
+        style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;"
+        vertex="1" parent="1">
+          <mxGeometry x="250" y="200" width="180" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Data Platform -->
+        <mxCell id="4" value="DATA PLATFORM&#xa;(CSV / API / Database)"
+        style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;"
+        vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="200" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- SUMO -->
+        <mxCell id="5" value="SUMO SIMULATION&#xa;(network + flows + detectors)"
+        style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;"
+        vertex="1" parent="1">
+          <mxGeometry x="730" y="200" width="220" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Analytics -->
+        <mxCell id="6" value="ANALYTICS&#xa;(Speed, Flow, Emissions)"
+        style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;"
+        vertex="1" parent="1">
+          <mxGeometry x="1000" y="200" width="200" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Dashboard -->
+        <mxCell id="7" value="DASHBOARD&#xa;(KPI + GIS Visualization)"
+        style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;"
+        vertex="1" parent="1">
+          <mxGeometry x="1250" y="200" width="220" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrows -->
+        <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;"
+        edge="1" parent="1" source="2" target="3"/>
+        <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;"
+        edge="1" parent="1" source="3" target="4"/>
+        <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;"
+        edge="1" parent="1" source="4" target="5"/>
+        <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;"
+        edge="1" parent="1" source="5" target="6"/>
+        <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;"
+        edge="1" parent="1" source="6" target="7"/>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

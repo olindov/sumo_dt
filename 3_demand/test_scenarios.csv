@@ -1,0 +1,4 @@
+Scenario ID,Name,Description,Peak Hour,Main Assumption
+TS-01,AM Peak Base,One-hour synthetic peak-hour test scenario,07:00-08:00,Traffic demand concentrated on main west-east corridor
+TS-02,PM Peak Stress,Stress test with +20 percent demand,15:00-16:00,Used for sensitivity analysis
+TS-03,Incident Diversion,Temporary reduction of main corridor capacity,08:00-09:00,Can be implemented by closing e_mid lane in SUMO GUI or with additional file

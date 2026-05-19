@@ -1,0 +1,17 @@
+<edges>
+    <!-- Main corridor -->
+    <edge id="e_w_in" from="n1" to="n2" numLanes="1" speed="13.89"/>
+    <edge id="e_mid" from="n2" to="n3" numLanes="1" speed="13.89"/>
+    <edge id="e_e_out" from="n3" to="n6" numLanes="1" speed="13.89"/>
+
+    <!-- Reverse direction -->
+    <edge id="e_e_in" from="n6" to="n3" numLanes="1" speed="13.89"/>
+    <edge id="e_mid_rev" from="n3" to="n2" numLanes="1" speed="13.89"/>
+    <edge id="e_w_out" from="n2" to="n1" numLanes="1" speed="13.89"/>
+
+    <!-- North / South legs -->
+    <edge id="e_n_in" from="n4" to="n2" numLanes="1" speed="11.11"/>
+    <edge id="e_n_out" from="n2" to="n4" numLanes="1" speed="11.11"/>
+    <edge id="e_s_in" from="n5" to="n2" numLanes="1" speed="11.11"/>
+    <edge id="e_s_out" from="n2" to="n5" numLanes="1" speed="11.11"/>
+</edges>

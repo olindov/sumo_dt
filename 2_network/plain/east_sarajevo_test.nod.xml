@@ -1,0 +1,9 @@
+<nodes>
+    <!-- Toy test network for East Sarajevo Digital Twin -->
+    <node id="n1" x="0.0" y="0.0" type="priority"/>
+    <node id="n2" x="900.0" y="0.0" type="traffic_light"/>
+    <node id="n3" x="1800.0" y="0.0" type="priority"/>
+    <node id="n4" x="900.0" y="700.0" type="priority"/>
+    <node id="n5" x="900.0" y="-700.0" type="priority"/>
+    <node id="n6" x="2600.0" y="0.0" type="priority"/>
+</nodes>

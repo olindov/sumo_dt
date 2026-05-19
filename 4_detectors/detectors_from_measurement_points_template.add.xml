@@ -1,0 +1,24 @@
+<additional>
+    <!-- P1: Ulaz Lukavica veza Dobrinja (veza ka KS) | lat=43.8185 lon=18.3562 -->
+    <e1Detector id="P1" lane="TODO_lane_id_0" pos="TODO_pos_m" freq="60" file="../5_outputs/P1_detector.xml"/>
+    <!-- P2: Lukavica veza Istočna Ilidža (lokalni ulaz) | lat=43.8201 lon=18.3639 -->
+    <e1Detector id="P2" lane="TODO_lane_id_0" pos="TODO_pos_m" freq="60" file="../5_outputs/P2_detector.xml"/>
+    <!-- P3: Vojkovići veza Kasindo (zapadni ulaz) | lat=43.8227 lon=18.3471 -->
+    <e1Detector id="P3" lane="TODO_lane_id_0" pos="TODO_pos_m" freq="60" file="../5_outputs/P3_detector.xml"/>
+    <!-- P4: Lukavica veza Pale (regionalni pravac) | lat=43.8332 lon=18.4304 -->
+    <e1Detector id="P4" lane="TODO_lane_id_0" pos="TODO_pos_m" freq="60" file="../5_outputs/P4_detector.xml"/>
+    <!-- P5: Pale veza Sarajevo (M18) tranzit | lat=43.8514 lon=18.4412 -->
+    <e1Detector id="P5" lane="TODO_lane_id_0" pos="TODO_pos_m" freq="60" file="../5_outputs/P5_detector.xml"/>
+    <!-- P6: Stup veza Lukavica (ulaz u zonu) | lat=43.8219 lon=18.3387 -->
+    <e1Detector id="P6" lane="TODO_lane_id_0" pos="TODO_pos_m" freq="60" file="../5_outputs/P6_detector.xml"/>
+    <!-- P7: Dobrinja veza Lukavica (KS veza) | lat=43.8158 lon=18.3615 -->
+    <e1Detector id="P7" lane="TODO_lane_id_0" pos="TODO_pos_m" freq="60" file="../5_outputs/P7_detector.xml"/>
+    <!-- R1: Ulaz Lukavica (glavna raskrsnica) | lat=43.8189 lon=18.3591 -->
+    <e1Detector id="R1" lane="TODO_lane_id_0" pos="TODO_pos_m" freq="60" file="../5_outputs/R1_detector.xml"/>
+    <!-- R2: Lukavica centar (kritična raskrsnica) | lat=43.8207 lon=18.3648 -->
+    <e1Detector id="R2" lane="TODO_lane_id_0" pos="TODO_pos_m" freq="60" file="../5_outputs/R2_detector.xml"/>
+    <!-- R3: Veza Dobrinja (raskrsnica/uključenje) | lat=43.8169 lon=18.3583 -->
+    <e1Detector id="R3" lane="TODO_lane_id_0" pos="TODO_pos_m" freq="60" file="../5_outputs/R3_detector.xml"/>
+    <!-- R4: Pale centar (sezonski uticaji) | lat=43.8204 lon=18.5699 -->
+    <e1Detector id="R4" lane="TODO_lane_id_0" pos="TODO_pos_m" freq="60" file="../5_outputs/R4_detector.xml"/>
+</additional>

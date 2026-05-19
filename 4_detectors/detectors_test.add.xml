@@ -1,0 +1,7 @@
+<additional>
+    <e1Detector id="D_WEST_IN" lane="e_w_in_0" pos="300" freq="60" file="../5_outputs/detector_west_in.xml"/>
+    <e1Detector id="D_MAIN_EASTBOUND" lane="e_mid_0" pos="250" freq="60" file="../5_outputs/detector_main_eastbound.xml"/>
+    <e1Detector id="D_MAIN_WESTBOUND" lane="e_mid_rev_0" pos="250" freq="60" file="../5_outputs/detector_main_westbound.xml"/>
+    <e1Detector id="D_NORTH_IN" lane="e_n_in_0" pos="200" freq="60" file="../5_outputs/detector_north_in.xml"/>
+    <e1Detector id="D_SOUTH_IN" lane="e_s_in_0" pos="200" freq="60" file="../5_outputs/detector_south_in.xml"/>
+</additional>
