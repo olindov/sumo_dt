@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-12-31T20:45:32.597637+01:00 by Eclipse SUMO netconvert 1.25.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}\data\typemap\osmNetconvert.typ.xml,${SUMO_HOME}\data\typemap\osmNetconvertUrbanDe.typ.xml,${SUMO_HOME}\data\typemap\osmNetconvertPedestrians.typ.xml,${SUMO_HOME}\data\typemap\osmNetconvertBicycle.typ.xml,${SUMO_HOME}\data\typemap\osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+        <ptline-clean-up value="true"/>
+    </output>
+
+    <projection>
+        <proj value="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+    </junctions>
+
+    <pedestrian>
+        <crossings.guess value="true"/>
+    </pedestrian>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+    <formats>
+        <osm.bike-access value="true"/>
+        <osm.sidewalks value="true"/>
+    </formats>
+
+</netconvertConfiguration>
+-->
+
+<ptLines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/ptlines_file.xsd">
+    <ptLine id="16310307" name="Bus 31E: Dobrinja-Vijećnica" line="31E" type="bus" vClass="bus" completeness="0.06" missingBefore="16" missingAfter="13">
+        <route edges="679611682 679889619#1 679889619#2 679889619#3 680133892#0 680133892#1 680133892#2 680133891#0 182057481#0 182057481#2 182057481#3 182057481#4 182057481#5 679547817#0 679547817#1 663790484#0 663790484#2 679547813"/>
+        <busStop id="6289684956" name="Socijalno"/>
+        <busStop id="6289684954" name="Pofalići"/>
+    </ptLine>
+    <ptLine id="2171296" name="Tram 3: Ilidža ⇒ Baščaršija" line="3" type="tram" vClass="tram" completeness="0.10" missingBefore="12" missingAfter="15">
+        <route edges="242807683#0 242807683#2 242807683#3 242807683#4 242807683#5 242807683#7 242807683#9 242807683#10 242807683#11"/>
+        <busStop id="266195691" name="Socijalno"/>
+        <busStop id="266195703" name="Pofalići"/>
+        <busStop id="266196016" name="Univerzitet"/>
+    </ptLine>
+    <ptLine id="2171301" name="Bus 31E: Vijećnica-Dobrinja" line="31E" type="bus" vClass="bus" completeness="0.06" missingBefore="9" missingAfter="20">
+        <route edges="679547802 683219912 683219911 1207096895 10644685#0 10644685#2 679603704#0 679603704#2 679603709#1 679603709#2 679603709#3 679578537#0 679578537#1"/>
+        <busStop id="2501830079" name="Univerzitet"/>
+        <busStop id="2501910512" name="Pofalići"/>
+    </ptLine>
+    <ptLine id="2530510" name="Tram 6: Skenderija ⇒ Ilidža" line="6" type="tram" vClass="tram" completeness="0.15" missingBefore="4" missingAfter="13">
+        <route edges="179069982#0 179069982#1 179069982#2 179069982#4 179069982#6 179069982#7 179069982#8 179069982#9 179069982#11"/>
+        <busStop id="266196009" name="Tehnička škola"/>
+        <busStop id="266196011" name="Univerzitet"/>
+        <busStop id="266195671" name="Pofalići"/>
+    </ptLine>
+    <ptLine id="2534968" name="Tram 4: Ilidža ⇒ Željeznička stanica" line="4" type="tram" vClass="tram" completeness="0.24" missingBefore="12" missingAfter="1">
+        <route edges="242807683#0 242807683#2 242807683#3 242807683#4 242807683#5 242807683#7 242807683#9 242807683#10 242807683#11 179069981#3 179069981#4 242642505#0 242642505#1"/>
+        <busStop id="266195691" name="Socijalno"/>
+        <busStop id="266195703" name="Pofalići"/>
+        <busStop id="266196016" name="Univerzitet"/>
+        <busStop id="1987831068" name="Tehnička škola"/>
+    </ptLine>
+    <ptLine id="3279204" name="Tram 1: Baščaršija ⇒ Željeznička stanica" line="1" type="tram" vClass="tram" completeness="0.08" missingBefore="10" missingAfter="1">
+        <route edges="242539015#0 242539015#2 242642505#0 242642505#1"/>
+        <busStop id="1987831068" name="Tehnička škola"/>
+    </ptLine>
+    <ptLine id="3281834" name="Tram 2: Baščaršija ⇒ Čengić Vila" line="2" type="tram" vClass="tram" completeness="0.19" missingBefore="10" missingAfter="3">
+        <route edges="179069982#0 179069982#1 179069982#2 179069982#4 179069982#6 179069982#7 179069982#8 179069982#9 179069982#11"/>
+        <busStop id="266196009" name="Tehnička škola"/>
+        <busStop id="266196011" name="Univerzitet"/>
+        <busStop id="266195671" name="Pofalići"/>
+    </ptLine>
+    <ptLine id="3281835" name="Tram 2: Čengić Vila ⇒ Baščaršija" line="2" type="tram" vClass="tram" completeness="0.14" missingBefore="3" missingAfter="15">
+        <route edges="242807683#0 242807683#2 242807683#3 242807683#4 242807683#5 242807683#7 242807683#9 242807683#10 242807683#11"/>
+        <busStop id="266195691" name="Socijalno"/>
+        <busStop id="266195703" name="Pofalići"/>
+        <busStop id="266196016" name="Univerzitet"/>
+    </ptLine>
+    <ptLine id="3284410" name="Tram 5: Baščaršija ⇒ Nedžarići" line="5" type="tram" vClass="tram" completeness="0.14" missingBefore="10" missingAfter="8">
+        <route edges="179069982#0 179069982#1 179069982#2 179069982#4 179069982#6 179069982#7 179069982#8 179069982#9 179069982#11"/>
+        <busStop id="266196009" name="Tehnička škola"/>
+        <busStop id="266196011" name="Univerzitet"/>
+        <busStop id="266195671" name="Pofalići"/>
+    </ptLine>
+    <ptLine id="3284411" name="Tram 5: Nedžarići ⇒ Baščaršija" line="5" type="tram" vClass="tram" completeness="0.12" missingBefore="7" missingAfter="15">
+        <route edges="242807683#0 242807683#2 242807683#3 242807683#4 242807683#5 242807683#7 242807683#9 242807683#10 242807683#11"/>
+        <busStop id="266195691" name="Socijalno"/>
+        <busStop id="266195703" name="Pofalići"/>
+        <busStop id="266196016" name="Univerzitet"/>
+    </ptLine>
+    <ptLine id="3285669" name="Tram 3: Baščaršija ⇒ Ilidža" line="3" type="tram" vClass="tram" completeness="0.12" missingBefore="10" missingAfter="13">
+        <route edges="179069982#0 179069982#1 179069982#2 179069982#4 179069982#6 179069982#7 179069982#8 179069982#9 179069982#11"/>
+        <busStop id="266196009" name="Tehnička škola"/>
+        <busStop id="266196011" name="Univerzitet"/>
+        <busStop id="266195671" name="Pofalići"/>
+    </ptLine>
+    <ptLine id="3285944" name="Tram 4: Željeznička stanica ⇒ Ilidža" line="4" type="tram" vClass="tram" completeness="0.18" missingBefore="1" missingAfter="13">
+        <route edges="242637770#0 242637770#1 242640794#0 179069982#0 179069982#1 179069982#2 179069982#4 179069982#6 179069982#7 179069982#8 179069982#9 179069982#11"/>
+        <busStop id="266196009" name="Tehnička škola"/>
+        <busStop id="266196011" name="Univerzitet"/>
+        <busStop id="266195671" name="Pofalići"/>
+    </ptLine>
+    <ptLine id="3285975" name="Tram 6: Ilidža ⇒ Skenderija" line="6" type="tram" vClass="tram" completeness="0.15" missingBefore="12" missingAfter="5">
+        <route edges="242807683#0 242807683#2 242807683#3 242807683#4 242807683#5 242807683#7 242807683#9 242807683#10 242807683#11"/>
+        <busStop id="266195691" name="Socijalno"/>
+        <busStop id="266195703" name="Pofalići"/>
+        <busStop id="266196016" name="Univerzitet"/>
+    </ptLine>
+    <ptLine id="9403546" name="Bus 200E: Aerodrom Sarajevo ⇒ Baščaršija" line="200E" type="bus" vClass="bus" completeness="0.06" missingBefore="16" missingAfter="13">
+        <route edges="679611682 679889619#1 679889619#2 679889619#3 680133892#0 680133892#1 680133892#2 680133891#0 182057481#0 182057481#2 182057481#3 182057481#4 182057481#5 679547817#0 679547817#1 663790484#0 663790484#2 679547813"/>
+        <busStop id="6289684956" name="Socijalno"/>
+        <busStop id="6289684954" name="Pofalići"/>
+    </ptLine>
+    <ptLine id="9403548" name="Bus 200E: Baščaršija ⇒ Aerodrom Sarajevo" line="Bus 200E: Baščaršija ⇒ Aerodrom Sarajevo" type="bus" vClass="bus" completeness="0.06" missingBefore="9" missingAfter="18">
+        <route edges="679547802 683219912 683219911 1207096895 10644685#0 10644685#2 679603704#0 679603704#2 679603709#1 679603709#2 679603709#3 679578537#0 679578537#1"/>
+        <busStop id="2501830079" name="Univerzitet"/>
+        <busStop id="2501910512" name="Pofalići"/>
+    </ptLine>
+</ptLines>

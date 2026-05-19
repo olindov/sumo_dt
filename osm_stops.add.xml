@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-01-08T21:30:53.948241+01:00 by Eclipse SUMO netedit 1.25.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- StoppingPlaces -->
+    <busStop id="1987831068" name="Tehnička škola" lane="242642505#1_0" startPos="37.28" endPos="62.28" friendlyPos="1" lines="4 1">
+        <access lane="461858099_0" pos="8.19" friendlyPos="1" length="76.91"/>
+        <access lane="461858100#5_0" pos="49.51" friendlyPos="1" length="82.25"/>
+        <access lane="461858100#6_0" pos="0.00" friendlyPos="1" length="79.39"/>
+        <access lane="657856218#1_0" pos="0.93" friendlyPos="1" length="79.42"/>
+        <access lane="657856218#3_0" pos="0.00" friendlyPos="1" length="78.93"/>
+    </busStop>
+    <busStop id="2501830079" name="Univerzitet" lane="10644685#2_0" startPos="59.33" endPos="74.33" friendlyPos="1" lines="31E Bus 200E: Ba ar ija Aerodrom Sarajevo">
+        <access lane="-1395879771#0_0" pos="0.00" friendlyPos="1" length="67.59"/>
+        <access lane="-1395879771#1_0" pos="82.24" friendlyPos="1" length="67.86"/>
+        <access lane="1395879771#0_0" pos="25.50" friendlyPos="1" length="72.38"/>
+        <access lane="182057481#5_0" pos="30.61" friendlyPos="1" length="59.02"/>
+        <access lane="498683803#14_0" pos="331.20" friendlyPos="1" length="23.99"/>
+    </busStop>
+    <busStop id="2501910512" name="Pofalići" lane="679603709#2_0" startPos="84.46" endPos="99.46" friendlyPos="1" lines="31E Bus 200E: Ba ar ija Aerodrom Sarajevo">
+        <access lane="498683803#5_0" pos="244.80" friendlyPos="1" length="30.79"/>
+        <access lane="498683803#6_0" pos="5.87" friendlyPos="1" length="25.92"/>
+        <access lane="69594279#0_0" pos="0.00" friendlyPos="1" length="74.95"/>
+        <access lane="816138177#0_0" pos="28.16" friendlyPos="1" length="36.21"/>
+        <access lane="816138177#1_0" pos="0.20" friendlyPos="1" length="30.64"/>
+    </busStop>
+    <busStop id="266195671" name="Pofalići" lane="179069982#7_1" startPos="62.28" endPos="87.28" friendlyPos="1" lines="6 2 5 3 4">
+        <access lane="498683803#5_0" pos="244.80" friendlyPos="1" length="66.35"/>
+        <access lane="498683803#6_0" pos="23.46" friendlyPos="1" length="50.57"/>
+        <access lane="69594279#0_0" pos="0.00" friendlyPos="1" length="70.79"/>
+        <access lane="816138177#0_0" pos="28.16" friendlyPos="1" length="70.13"/>
+        <access lane="816138177#1_0" pos="0.20" friendlyPos="1" length="65.43"/>
+    </busStop>
+    <busStop id="266195691" name="Socijalno" lane="242807683#3_1" startPos="29.86" endPos="54.86" friendlyPos="1" lines="3 4 2 5 6">
+        <access lane="1444726759_0" pos="0.00" friendlyPos="1" length="72.97"/>
+        <access lane="498683803#1_0" pos="40.42" friendlyPos="1" length="57.05"/>
+        <access lane="679574070#1_0" pos="1.12" friendlyPos="1" length="69.13"/>
+        <access lane="679574070#2_0" pos="0.20" friendlyPos="1" length="67.56"/>
+        <access lane="679574070#3_0" pos="0.00" friendlyPos="1" length="67.52"/>
+    </busStop>
+    <busStop id="266195703" name="Pofalići" lane="242807683#9_1" startPos="27.92" endPos="52.92" friendlyPos="1" lines="3 4 2 5 6">
+        <access lane="182057481#2_0" pos="40.79" friendlyPos="1" length="28.12"/>
+        <access lane="217996238_0" pos="0.00" friendlyPos="1" length="79.17"/>
+        <access lane="498683803#13_0" pos="41.76" friendlyPos="1" length="62.59"/>
+        <access lane="679537060#2_0" pos="1.14" friendlyPos="1" length="73.20"/>
+        <access lane="679537060#4_0" pos="0.00" friendlyPos="1" length="72.77"/>
+    </busStop>
+    <busStop id="266196009" name="Tehnička škola" lane="179069982#1_1" startPos="25.90" endPos="50.90" friendlyPos="1" lines="6 2 5 3 4">
+        <access lane="498683803#17_0" pos="109.45" friendlyPos="1" length="45.98"/>
+        <access lane="657856220#2_0" pos="0.34" friendlyPos="1" length="61.76"/>
+        <access lane="657856220#3_0" pos="0.00" friendlyPos="1" length="61.54"/>
+        <access lane="683219911_0" pos="5.03" friendlyPos="1" length="30.92"/>
+        <access lane="683219912_0" pos="25.37" friendlyPos="1" length="34.58"/>
+    </busStop>
+    <busStop id="266196011" name="Univerzitet" lane="179069982#1_1" startPos="317.96" endPos="342.96" friendlyPos="1" lines="6 2 5 3 4">
+        <access lane="-23480179#0_0" pos="4.26" friendlyPos="1" length="34.61"/>
+        <access lane="23480179#0_0" pos="0.00" friendlyPos="1" length="32.28"/>
+        <access lane="804301793#0_0" pos="2.15" friendlyPos="1" length="6.22"/>
+        <access lane="804301793#1_0" pos="0.00" friendlyPos="1" length="4.53"/>
+        <access lane="804301793#2_0" pos="0.00" friendlyPos="1" length="15.43"/>
+    </busStop>
+    <busStop id="266196016" name="Univerzitet" lane="242807683#9_1" startPos="565.50" endPos="590.50" friendlyPos="1" lines="3 4 2 5 6">
+        <access lane="-23480179#0_0" pos="4.26" friendlyPos="1" length="37.89"/>
+        <access lane="182057481#5_0" pos="95.48" friendlyPos="1" length="30.96"/>
+        <access lane="804301793#0_0" pos="2.15" friendlyPos="1" length="30.06"/>
+        <access lane="804301793#1_0" pos="0.15" friendlyPos="1" length="26.69"/>
+        <access lane="804301793#2_0" pos="0.00" friendlyPos="1" length="27.47"/>
+    </busStop>
+    <busStop id="6289684954" name="Pofalići" lane="182057481#2_1" startPos="56.05" endPos="71.05" friendlyPos="1" lines="31E 200E"/>
+    <busStop id="6289684956" name="Socijalno" lane="679889619#2_0" startPos="20.69" endPos="35.69" friendlyPos="1" lines="31E 200E">
+        <access lane="1444726759_0" pos="0.00" friendlyPos="1" length="46.94"/>
+        <access lane="498683803#1_0" pos="26.09" friendlyPos="1" length="76.44"/>
+        <access lane="679574070#1_0" pos="1.12" friendlyPos="1" length="57.99"/>
+        <access lane="679574070#2_0" pos="0.20" friendlyPos="1" length="52.49"/>
+        <access lane="679574070#3_0" pos="3.02" friendlyPos="1" length="47.35"/>
+    </busStop>
+</additional>

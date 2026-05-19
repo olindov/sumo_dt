@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-12-31 20:45:40.825119 by Eclipse SUMO osmWebWizard.py v1_25_0+0000-ac6c5a6752d
+<configuration>
+    <net-file value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\osm.net.xml.gz"/>
+    <output-trip-file value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\osm.tram.trips.xml"/>
+    <route-file value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\osm.tram.rou.xml"/>
+    <prefix value="tram"/>
+    <trip-attributes value="departLane=&quot;best&quot;"/>
+    <fringe-start-attributes value="departSpeed=&quot;max&quot;"/>
+    <vehicle-class value="tram"/>
+    <fringe-factor value="1"/>
+    <edge-permission value="tram"/>
+    <via-edge-types value="highway.motorway,highway.motorway_link,highway.trunk_link,highway.primary_link,highway.secondary_link,highway.tertiary_link"/>
+    <seed value="47"/>
+    <min-distance value="1200.0"/>
+    <min-distance.fringe value="10.0"/>
+    <remove-loops value="True"/>
+    <insertion-density value="2.0"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="tram_tram" vClass="tram"/>
+    <trip id="tram0" depart="0.00" from="242539016#0" to="179069982#8" departLane="best" type="tram_tram"/>
+    <trip id="tram1" depart="236.71" from="242539016#1" to="179069982#9" departLane="best" type="tram_tram"/>
+    <trip id="tram2" depart="473.41" from="242637770#0" to="179069982#8" departLane="best" type="tram_tram" departSpeed="max"/>
+    <trip id="tram3" depart="710.12" from="242807683#0" to="179069981#4" departLane="best" type="tram_tram" departSpeed="max"/>
+    <trip id="tram4" depart="946.82" from="242807683#4" to="242807683#10" departLane="best" type="tram_tram"/>
+    <trip id="tram5" depart="1183.53" from="242539016#1" to="179069982#7" departLane="best" type="tram_tram"/>
+    <trip id="tram6" depart="1420.23" from="242807683#11" to="179069982#8" departLane="best" type="tram_tram"/>
+    <trip id="tram7" depart="1656.94" from="242539016#1" to="179069982#7" departLane="best" type="tram_tram"/>
+    <trip id="tram8" depart="1893.65" from="242807683#3" to="179069982#1" departLane="best" type="tram_tram"/>
+    <trip id="tram9" depart="2130.35" from="242807683#11" to="179069982#7" departLane="best" type="tram_tram"/>
+    <trip id="tram10" depart="2367.06" from="242807683#2" to="179069982#0" departLane="best" type="tram_tram"/>
+    <trip id="tram11" depart="2603.76" from="179069982#1" to="179069982#9" departLane="best" type="tram_tram"/>
+    <trip id="tram12" depart="2840.47" from="179069982#0" to="179069982#7" departLane="best" type="tram_tram"/>
+    <trip id="tram13" depart="3077.17" from="179069982#1" to="179069982#7" departLane="best" type="tram_tram"/>
+    <trip id="tram14" depart="3313.88" from="179069982#0" to="179069982#8" departLane="best" type="tram_tram"/>
+    <trip id="tram15" depart="3550.59" from="242807683#0" to="242807683#11" departLane="best" type="tram_tram" departSpeed="max"/>
+</routes>

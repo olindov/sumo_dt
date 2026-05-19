@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-12-31T20:45:33.343872+01:00 by Eclipse SUMO sumo 1.25.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\osm.net.xml.gz"/>
+        <route-files value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\trips.trips.xml"/>
+        <additional-files value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\osm_stops.add.xml"/>
+    </input>
+
+    <output>
+        <vehroute-output value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\vehroutes.xml"/>
+        <stop-output value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\stopinfos.xml"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+        <time-to-teleport.disconnected value="0"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-interval value="0"/>
+    </routing>
+
+    <report>
+        <aggregate-warnings value="5"/>
+        <error-log value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\trips.trips.xml.errorlog"/>
+        <no-step-log value="true"/>
+    </report>
+
+</sumoConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="5_tram_1:0" type="pt_tram" depart="131.00" departLane="0" arrival="196.00">
+        <route edges="242539015#0 242539015#2 242642505#0 242642505#1"/>
+        <stop busStop="1987831068" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="2_bus_31E:1" type="pt_bus" depart="17.00" departLane="0" arrival="314.00">
+        <route edges="679547802 683219912 683219911 1207096895 10644685#0 10644685#2 679603704#0 679603704#2 679603709#1 679603709#2 679603709#3 679578537#0 679578537#1"/>
+        <stop busStop="2501830079" duration="30.00"/>
+        <stop busStop="2501910512" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="0_bus_31E:0" type="pt_bus" depart="15.00" departLane="0" arrival="404.00">
+        <route edges="679611682 679889619#1 679889619#2 679889619#3 680133892#0 680133892#1 680133892#2 680133891#0 182057481#0 182057481#2 182057481#3 182057481#4 182057481#5 679547817#0 679547817#1 663790484#0 663790484#2 679547813"/>
+        <stop busStop="6289684956" duration="30.00"/>
+        <stop busStop="6289684954" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="1_tram_3:0" type="pt_tram" depart="15.00" departLane="1" arrival="424.00">
+        <route edges="242807683#0 242807683#2 242807683#3 242807683#4 242807683#5 242807683#7 242807683#9 242807683#10 242807683#11"/>
+        <stop busStop="266195691" duration="30.00"/>
+        <stop busStop="266195703" duration="30.00"/>
+        <stop busStop="266196016" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="3_tram_6:0" type="pt_tram" depart="52.00" departLane="1" arrival="484.00">
+        <route edges="179069982#0 179069982#1 179069982#2 179069982#4 179069982#6 179069982#7 179069982#8 179069982#9 179069982#11"/>
+        <stop busStop="266196009" duration="30.00"/>
+        <stop busStop="266196011" duration="30.00"/>
+        <stop busStop="266195671" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="6_tram_2:0" type="pt_tram" depart="133.00" departLane="1" arrival="565.00">
+        <route edges="179069982#0 179069982#1 179069982#2 179069982#4 179069982#6 179069982#7 179069982#8 179069982#9 179069982#11"/>
+        <stop busStop="266196009" duration="30.00"/>
+        <stop busStop="266196011" duration="30.00"/>
+        <stop busStop="266195671" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="4_tram_4:0" type="pt_tram" depart="119.00" departLane="1" arrival="566.00">
+        <route edges="242807683#0 242807683#2 242807683#3 242807683#4 242807683#5 242807683#7 242807683#9 242807683#10 242807683#11 179069981#3 179069981#4 242642505#0 242642505#1"/>
+        <stop busStop="266195691" duration="30.00"/>
+        <stop busStop="266195703" duration="30.00"/>
+        <stop busStop="266196016" duration="30.00"/>
+        <stop busStop="1987831068" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="7_tram_2:1" type="pt_tram" depart="165.00" departLane="1" arrival="598.00">
+        <route edges="242807683#0 242807683#2 242807683#3 242807683#4 242807683#5 242807683#7 242807683#9 242807683#10 242807683#11"/>
+        <stop busStop="266195691" duration="30.00"/>
+        <stop busStop="266195703" duration="30.00"/>
+        <stop busStop="266196016" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="8_tram_5:0" type="pt_tram" depart="253.00" departLane="1" arrival="637.00">
+        <route edges="179069982#0 179069982#1 179069982#2 179069982#4 179069982#6 179069982#7 179069982#8 179069982#9 179069982#11"/>
+        <stop busStop="266196009" duration="30.00"/>
+        <stop busStop="266196011" duration="30.00"/>
+        <stop busStop="266195671" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="10_tram_3:1" type="pt_tram" depart="383.00" departLane="1" arrival="717.00">
+        <route edges="179069982#0 179069982#1 179069982#2 179069982#4 179069982#6 179069982#7 179069982#8 179069982#9 179069982#11"/>
+        <stop busStop="266196009" duration="30.00"/>
+        <stop busStop="266196011" duration="30.00"/>
+        <stop busStop="266195671" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="9_tram_5:1" type="pt_tram" depart="303.00" departLane="1" arrival="760.00">
+        <route edges="242807683#0 242807683#2 242807683#3 242807683#4 242807683#5 242807683#7 242807683#9 242807683#10 242807683#11"/>
+        <stop busStop="266195691" duration="30.00"/>
+        <stop busStop="266195703" duration="30.00"/>
+        <stop busStop="266196016" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="14_bus_Bus_200E:_Baščaršija_⇒_Aerodrom_Sarajevo:0" type="pt_bus" depart="535.00" departLane="0" arrival="771.00">
+        <route edges="679547802 683219912 683219911 1207096895 10644685#0 10644685#2 679603704#0 679603704#2 679603709#1 679603709#2 679603709#3 679578537#0 679578537#1"/>
+        <stop busStop="2501830079" duration="30.00"/>
+        <stop busStop="2501910512" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="12_tram_6:1" type="pt_tram" depart="406.00" departLane="1" arrival="800.00">
+        <route edges="242807683#0 242807683#2 242807683#3 242807683#4 242807683#5 242807683#7 242807683#9 242807683#10 242807683#11"/>
+        <stop busStop="266195691" duration="30.00"/>
+        <stop busStop="266195703" duration="30.00"/>
+        <stop busStop="266196016" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="11_tram_4:1" type="pt_tram" depart="389.00" departLane="0" arrival="869.00">
+        <route edges="242637770#0 242637770#1 242640794#0 179069982#0 179069982#1 179069982#2 179069982#4 179069982#6 179069982#7 179069982#8 179069982#9 179069982#11"/>
+        <stop busStop="266196009" duration="30.00"/>
+        <stop busStop="266196011" duration="30.00"/>
+        <stop busStop="266195671" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="13_bus_200E:0" type="pt_bus" depart="441.00" departLane="0" arrival="932.00">
+        <route edges="679611682 679889619#1 679889619#2 679889619#3 680133892#0 680133892#1 680133892#2 680133891#0 182057481#0 182057481#2 182057481#3 182057481#4 182057481#5 679547817#0 679547817#1 663790484#0 663790484#2 679547813"/>
+        <stop busStop="6289684956" duration="30.00"/>
+        <stop busStop="6289684954" duration="30.00"/>
+    </vehicle>
+
+</routes>

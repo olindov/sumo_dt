@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+
+  <flow id="KS2024_KSBS15_A_passenger_h07"
+        type="passenger"
+        from="679578537#0"
+        begin="25200"
+        end="28800"
+        departLane="best"
+        departSpeed="max"
+        number="780"/>
+
+  <flow id="KS2024_KSBS15_A_delivery_h08"
+        type="delivery"
+        from="679578537#0"
+        begin="28800"
+        end="32400"
+        departLane="best"
+        departSpeed="max"
+        number="110"/>
+
+  <flow id="KS2024_KSBS15_A_passenger_h08"
+        type="passenger"
+        from="679578537#0"
+        begin="28800"
+        end="32400"
+        departLane="best"
+        departSpeed="max"
+        number="861"/>
+
+  <flow id="KS2024_KSBS15_A_truck_h08"
+        type="truck"
+        from="679578537#0"
+        begin="28800"
+        end="32400"
+        departLane="best"
+        departSpeed="max"
+        number="88"/>
+
+</routes>

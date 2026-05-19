@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-12-31 20:45:33.084028 by Eclipse SUMO $Id: ptlines2flows.py v1_3_1+0313-ccb31df3eb jakob.erdmann@dlr.de 2019-09-02 13:26:32 +0200 $ v1_25_0+0000-ac6c5a6752d
+<configuration>
+    <net-file value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\osm.net.xml.gz"/>
+    <ptlines-file value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\osm_ptlines.xml"/>
+    <ptstops-file value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\osm_stops.add.xml"/>
+    <output-file value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\osm_pt.rou.xml"/>
+    <stopinfos-file value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\stopinfos.xml"/>
+    <routes-file value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\vehroutes.xml"/>
+    <trips-file value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\trips.trips.xml"/>
+    <min-stops value="0"/>
+    <extend-to-fringe value="True"/>
+    <random-begin value="True"/>
+    <seed value="42"/>
+    <ignore-errors value="True"/>
+    <vtype-prefix value="pt_"/>
+    <verbose value="True"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_tram" vClass="tram" speedFactor="1.0"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="subway"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail_urban"/>
+    <vType id="pt_trolleybus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_minibus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_share_taxi" vClass="taxi" speedFactor="0.95"/>
+    <vType id="pt_aerialway" vClass="cable_car" length="2.5" width="2" personCapacity="4"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <trip id="0_bus_31E:0" type="pt_bus" depart="15.0" departLane="best" from="679611682" to="679547813">
+        <stop busStop="6289684956" duration="30"/>  <!-- Socijalno -->
+        <stop busStop="6289684954" duration="30"/>  <!-- Pofalići -->
+    </trip>
+    <trip id="1_tram_3:0" type="pt_tram" depart="15.0" departLane="best" from="242807683#0" to="242807683#11">
+        <stop busStop="266195691" duration="30"/>  <!-- Socijalno -->
+        <stop busStop="266195703" duration="30"/>  <!-- Pofalići -->
+        <stop busStop="266196016" duration="30"/>  <!-- Univerzitet -->
+    </trip>
+    <trip id="2_bus_31E:1" type="pt_bus" depart="17.0" departLane="best" from="679547802" to="679578537#1">
+        <stop busStop="2501830079" duration="30"/>  <!-- Univerzitet -->
+        <stop busStop="2501910512" duration="30"/>  <!-- Pofalići -->
+    </trip>
+    <trip id="3_tram_6:0" type="pt_tram" depart="52.0" departLane="best" from="179069982#0" to="179069982#11">
+        <stop busStop="266196009" duration="30"/>  <!-- Tehnička škola -->
+        <stop busStop="266196011" duration="30"/>  <!-- Univerzitet -->
+        <stop busStop="266195671" duration="30"/>  <!-- Pofalići -->
+    </trip>
+    <trip id="4_tram_4:0" type="pt_tram" depart="119.0" departLane="best" from="242807683#0" to="242642505#1">
+        <stop busStop="266195691" duration="30"/>  <!-- Socijalno -->
+        <stop busStop="266195703" duration="30"/>  <!-- Pofalići -->
+        <stop busStop="266196016" duration="30"/>  <!-- Univerzitet -->
+        <stop busStop="1987831068" duration="30"/>  <!-- Tehnička škola -->
+    </trip>
+    <trip id="5_tram_1:0" type="pt_tram" depart="131.0" departLane="best" from="242539015#0" to="242642505#1">
+        <stop busStop="1987831068" duration="30"/>  <!-- Tehnička škola -->
+    </trip>
+    <trip id="6_tram_2:0" type="pt_tram" depart="133.0" departLane="best" from="179069982#0" to="179069982#11">
+        <stop busStop="266196009" duration="30"/>  <!-- Tehnička škola -->
+        <stop busStop="266196011" duration="30"/>  <!-- Univerzitet -->
+        <stop busStop="266195671" duration="30"/>  <!-- Pofalići -->
+    </trip>
+    <trip id="7_tram_2:1" type="pt_tram" depart="165.0" departLane="best" from="242807683#0" to="242807683#11">
+        <stop busStop="266195691" duration="30"/>  <!-- Socijalno -->
+        <stop busStop="266195703" duration="30"/>  <!-- Pofalići -->
+        <stop busStop="266196016" duration="30"/>  <!-- Univerzitet -->
+    </trip>
+    <trip id="8_tram_5:0" type="pt_tram" depart="253.0" departLane="best" from="179069982#0" to="179069982#11">
+        <stop busStop="266196009" duration="30"/>  <!-- Tehnička škola -->
+        <stop busStop="266196011" duration="30"/>  <!-- Univerzitet -->
+        <stop busStop="266195671" duration="30"/>  <!-- Pofalići -->
+    </trip>
+    <trip id="9_tram_5:1" type="pt_tram" depart="303.0" departLane="best" from="242807683#0" to="242807683#11">
+        <stop busStop="266195691" duration="30"/>  <!-- Socijalno -->
+        <stop busStop="266195703" duration="30"/>  <!-- Pofalići -->
+        <stop busStop="266196016" duration="30"/>  <!-- Univerzitet -->
+    </trip>
+    <trip id="10_tram_3:1" type="pt_tram" depart="383.0" departLane="best" from="179069982#0" to="179069982#11">
+        <stop busStop="266196009" duration="30"/>  <!-- Tehnička škola -->
+        <stop busStop="266196011" duration="30"/>  <!-- Univerzitet -->
+        <stop busStop="266195671" duration="30"/>  <!-- Pofalići -->
+    </trip>
+    <trip id="11_tram_4:1" type="pt_tram" depart="389.0" departLane="best" from="242637770#0" to="179069982#11">
+        <stop busStop="266196009" duration="30"/>  <!-- Tehnička škola -->
+        <stop busStop="266196011" duration="30"/>  <!-- Univerzitet -->
+        <stop busStop="266195671" duration="30"/>  <!-- Pofalići -->
+    </trip>
+    <trip id="12_tram_6:1" type="pt_tram" depart="406.0" departLane="best" from="242807683#0" to="242807683#11">
+        <stop busStop="266195691" duration="30"/>  <!-- Socijalno -->
+        <stop busStop="266195703" duration="30"/>  <!-- Pofalići -->
+        <stop busStop="266196016" duration="30"/>  <!-- Univerzitet -->
+    </trip>
+    <trip id="13_bus_200E:0" type="pt_bus" depart="441.0" departLane="best" from="679611682" to="679547813">
+        <stop busStop="6289684956" duration="30"/>  <!-- Socijalno -->
+        <stop busStop="6289684954" duration="30"/>  <!-- Pofalići -->
+    </trip>
+    <trip id="14_bus_Bus_200E:_Baščaršija_⇒_Aerodrom_Sarajevo:0" type="pt_bus" depart="535.0" departLane="best" from="679547802" to="679578537#1">
+        <stop busStop="2501830079" duration="30"/>  <!-- Univerzitet -->
+        <stop busStop="2501910512" duration="30"/>  <!-- Pofalići -->
+    </trip>
+</routes>

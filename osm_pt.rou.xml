@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-12-31 20:45:33.593907 by Eclipse SUMO osmWebWizard.py v1_25_0+0000-ac6c5a6752d
+<configuration>
+    <net-file value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\osm.net.xml.gz"/>
+    <ptlines-file value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\osm_ptlines.xml"/>
+    <ptstops-file value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\osm_stops.add.xml"/>
+    <output-file value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\osm_pt.rou.xml"/>
+    <stopinfos-file value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\stopinfos.xml"/>
+    <routes-file value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\vehroutes.xml"/>
+    <trips-file value="C:\Users\Korisnik\Sumo\raskrsnicapofalici\trips.trips.xml"/>
+    <min-stops value="0"/>
+    <extend-to-fringe value="True"/>
+    <random-begin value="True"/>
+    <seed value="42"/>
+    <ignore-errors value="True"/>
+    <vtype-prefix value="pt_"/>
+    <verbose value="True"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="subway"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail_urban"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_minibus" vClass="bus"/>
+    <vType id="pt_share_taxi" vClass="taxi"/>
+    <vType id="pt_aerialway" vClass="cable_car" length="2.5" width="2" personCapacity="4"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="pt_bus_200E:0" edges="679611682 679889619#1 679889619#2 679889619#3 680133892#0 680133892#1 680133892#2 680133891#0 182057481#0 182057481#2 182057481#3 182057481#4 182057481#5 679547817#0 679547817#1 663790484#0 663790484#2 679547813" >
+        <stop busStop="6289684956" duration="20" until="110.0"/> <!-- Socijalno -->
+        <stop busStop="6289684954" duration="20" until="366.0"/> <!-- Pofalići -->
+    </route>
+    <route id="pt_bus_31E:0" edges="679611682 679889619#1 679889619#2 679889619#3 680133892#0 680133892#1 680133892#2 680133891#0 182057481#0 182057481#2 182057481#3 182057481#4 182057481#5 679547817#0 679547817#1 663790484#0 663790484#2 679547813" >
+        <stop busStop="6289684956" duration="20" until="75.0"/> <!-- Socijalno -->
+        <stop busStop="6289684954" duration="20" until="285.0"/> <!-- Pofalići -->
+    </route>
+    <route id="pt_bus_31E:1" edges="679547802 683219912 683219911 1207096895 10644685#0 10644685#2 679603704#0 679603704#2 679603709#1 679603709#2 679603709#3 679578537#0 679578537#1" >
+        <stop busStop="2501830079" duration="20" until="75.0"/> <!-- Univerzitet -->
+        <stop busStop="2501910512" duration="20" until="179.0"/> <!-- Pofalići -->
+    </route>
+    <route id="pt_bus_Bus_200E:_Baščaršija_⇒_Aerodrom_Sarajevo:0" edges="679547802 683219912 683219911 1207096895 10644685#0 10644685#2 679603704#0 679603704#2 679603709#1 679603709#2 679603709#3 679578537#0 679578537#1" >
+        <stop busStop="2501830079" duration="20" until="86.0"/> <!-- Univerzitet -->
+        <stop busStop="2501910512" duration="20" until="183.0"/> <!-- Pofalići -->
+    </route>
+    <route id="pt_tram_1:0" edges="242539015#0 242539015#2 242642505#0 242642505#1" >
+        <stop busStop="1987831068" duration="20" until="49.0"/> <!-- Tehnička škola -->
+    </route>
+    <route id="pt_tram_2:0" edges="179069982#0 179069982#1 179069982#2 179069982#4 179069982#6 179069982#7 179069982#8 179069982#9 179069982#11" >
+        <stop busStop="266196009" duration="20" until="43.0"/> <!-- Tehnička škola -->
+        <stop busStop="266196011" duration="20" until="103.0"/> <!-- Univerzitet -->
+        <stop busStop="266195671" duration="20" until="315.0"/> <!-- Pofalići -->
+    </route>
+    <route id="pt_tram_2:1" edges="242807683#0 242807683#2 242807683#3 242807683#4 242807683#5 242807683#7 242807683#9 242807683#10 242807683#11" >
+        <stop busStop="266195691" duration="20" until="98.0"/> <!-- Socijalno -->
+        <stop busStop="266195703" duration="20" until="323.0"/> <!-- Pofalići -->
+        <stop busStop="266196016" duration="20" until="400.0"/> <!-- Univerzitet -->
+    </route>
+    <route id="pt_tram_3:0" edges="242807683#0 242807683#2 242807683#3 242807683#4 242807683#5 242807683#7 242807683#9 242807683#10 242807683#11" >
+        <stop busStop="266195691" duration="20" until="96.0"/> <!-- Socijalno -->
+        <stop busStop="266195703" duration="20" until="299.0"/> <!-- Pofalići -->
+        <stop busStop="266196016" duration="20" until="376.0"/> <!-- Univerzitet -->
+    </route>
+    <route id="pt_tram_3:1" edges="179069982#0 179069982#1 179069982#2 179069982#4 179069982#6 179069982#7 179069982#8 179069982#9 179069982#11" >
+        <stop busStop="266196009" duration="20" until="43.0"/> <!-- Tehnička škola -->
+        <stop busStop="266196011" duration="20" until="103.0"/> <!-- Univerzitet -->
+        <stop busStop="266195671" duration="20" until="233.0"/> <!-- Pofalići -->
+    </route>
+    <route id="pt_tram_4:0" edges="242807683#0 242807683#2 242807683#3 242807683#4 242807683#5 242807683#7 242807683#9 242807683#10 242807683#11 179069981#3 179069981#4 242642505#0 242642505#1" >
+        <stop busStop="266195691" duration="20" until="68.0"/> <!-- Socijalno -->
+        <stop busStop="266195703" duration="20" until="234.0"/> <!-- Pofalići -->
+        <stop busStop="266196016" duration="20" until="312.0"/> <!-- Univerzitet -->
+        <stop busStop="1987831068" duration="20" until="431.0"/> <!-- Tehnička škola -->
+    </route>
+    <route id="pt_tram_4:1" edges="242637770#0 242637770#1 242640794#0 179069982#0 179069982#1 179069982#2 179069982#4 179069982#6 179069982#7 179069982#8 179069982#9 179069982#11" >
+        <stop busStop="266196009" duration="20" until="93.0"/> <!-- Tehnička škola -->
+        <stop busStop="266196011" duration="20" until="153.0"/> <!-- Univerzitet -->
+        <stop busStop="266195671" duration="20" until="359.0"/> <!-- Pofalići -->
+    </route>
+    <route id="pt_tram_5:0" edges="179069982#0 179069982#1 179069982#2 179069982#4 179069982#6 179069982#7 179069982#8 179069982#9 179069982#11" >
+        <stop busStop="266196009" duration="20" until="43.0"/> <!-- Tehnička škola -->
+        <stop busStop="266196011" duration="20" until="103.0"/> <!-- Univerzitet -->
+        <stop busStop="266195671" duration="20" until="324.0"/> <!-- Pofalići -->
+    </route>
+    <route id="pt_tram_5:1" edges="242807683#0 242807683#2 242807683#3 242807683#4 242807683#5 242807683#7 242807683#9 242807683#10 242807683#11" >
+        <stop busStop="266195691" duration="20" until="112.0"/> <!-- Socijalno -->
+        <stop busStop="266195703" duration="20" until="347.0"/> <!-- Pofalići -->
+        <stop busStop="266196016" duration="20" until="424.0"/> <!-- Univerzitet -->
+    </route>
+    <route id="pt_tram_6:0" edges="179069982#0 179069982#1 179069982#2 179069982#4 179069982#6 179069982#7 179069982#8 179069982#9 179069982#11" >
+        <stop busStop="266196009" duration="20" until="43.0"/> <!-- Tehnička škola -->
+        <stop busStop="266196011" duration="20" until="103.0"/> <!-- Univerzitet -->
+        <stop busStop="266195671" duration="20" until="357.0"/> <!-- Pofalići -->
+    </route>
+    <route id="pt_tram_6:1" edges="242807683#0 242807683#2 242807683#3 242807683#4 242807683#5 242807683#7 242807683#9 242807683#10 242807683#11" >
+        <stop busStop="266195691" duration="20" until="85.0"/> <!-- Socijalno -->
+        <stop busStop="266195703" duration="20" until="283.0"/> <!-- Pofalići -->
+        <stop busStop="266196016" duration="20" until="361.0"/> <!-- Univerzitet -->
+    </route>
+    <flow id="pt_bus_31E:0" type="pt_bus" route="pt_bus_31E:0" begin="15.0" end="3615.0" period="600" line="31E:0" >
+        <param key="name" value="Bus 31E: Dobrinja-Vijećnica"/>
+        <param key="completeness" value="0.06"/>
+    </flow>
+    <flow id="pt_tram_3:1" type="pt_tram" route="pt_tram_3:1" begin="383.0" end="3983.0" period="600" line="3:1" >
+        <param key="name" value="Tram 3: Baščaršija ⇒ Ilidža"/>
+        <param key="completeness" value="0.12"/>
+    </flow>
+    <flow id="pt_tram_4:1" type="pt_tram" route="pt_tram_4:1" begin="389.0" end="3989.0" period="600" line="4:1" >
+        <param key="name" value="Tram 4: Željeznička stanica ⇒ Ilidža"/>
+        <param key="completeness" value="0.18"/>
+    </flow>
+    <flow id="pt_tram_6:1" type="pt_tram" route="pt_tram_6:1" begin="406.0" end="4006.0" period="600" line="6:1" >
+        <param key="name" value="Tram 6: Ilidža ⇒ Skenderija"/>
+        <param key="completeness" value="0.15"/>
+    </flow>
+    <flow id="pt_bus_200E:0" type="pt_bus" route="pt_bus_200E:0" begin="441.0" end="4041.0" period="600" line="200E:0" >
+        <param key="name" value="Bus 200E: Aerodrom Sarajevo ⇒ Baščaršija"/>
+        <param key="completeness" value="0.06"/>
+    </flow>
+    <flow id="pt_bus_Bus_200E:_Baščaršija_⇒_Aerodrom_Sarajevo:0" type="pt_bus" route="pt_bus_Bus_200E:_Baščaršija_⇒_Aerodrom_Sarajevo:0" begin="535.0" end="4135.0" period="600" line="Bus_200E:_Baščaršija_⇒_Aerodrom_Sarajevo:0" >
+        <param key="name" value="Bus 200E: Baščaršija ⇒ Aerodrom Sarajevo"/>
+        <param key="completeness" value="0.06"/>
+    </flow>
+    <flow id="pt_tram_3:0" type="pt_tram" route="pt_tram_3:0" begin="15.0" end="3615.0" period="600" line="3:0" >
+        <param key="name" value="Tram 3: Ilidža ⇒ Baščaršija"/>
+        <param key="completeness" value="0.10"/>
+    </flow>
+    <flow id="pt_bus_31E:1" type="pt_bus" route="pt_bus_31E:1" begin="17.0" end="3617.0" period="600" line="31E:1" >
+        <param key="name" value="Bus 31E: Vijećnica-Dobrinja"/>
+        <param key="completeness" value="0.06"/>
+    </flow>
+    <flow id="pt_tram_6:0" type="pt_tram" route="pt_tram_6:0" begin="52.0" end="3652.0" period="600" line="6:0" >
+        <param key="name" value="Tram 6: Skenderija ⇒ Ilidža"/>
+        <param key="completeness" value="0.15"/>
+    </flow>
+    <flow id="pt_tram_4:0" type="pt_tram" route="pt_tram_4:0" begin="119.0" end="3719.0" period="600" line="4:0" >
+        <param key="name" value="Tram 4: Ilidža ⇒ Željeznička stanica"/>
+        <param key="completeness" value="0.24"/>
+    </flow>
+    <flow id="pt_tram_1:0" type="pt_tram" route="pt_tram_1:0" begin="131.0" end="3731.0" period="600" line="1:0" >
+        <param key="name" value="Tram 1: Baščaršija ⇒ Željeznička stanica"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_tram_2:0" type="pt_tram" route="pt_tram_2:0" begin="133.0" end="3733.0" period="600" line="2:0" >
+        <param key="name" value="Tram 2: Baščaršija ⇒ Čengić Vila"/>
+        <param key="completeness" value="0.19"/>
+    </flow>
+    <flow id="pt_tram_2:1" type="pt_tram" route="pt_tram_2:1" begin="165.0" end="3765.0" period="600" line="2:1" >
+        <param key="name" value="Tram 2: Čengić Vila ⇒ Baščaršija"/>
+        <param key="completeness" value="0.14"/>
+    </flow>
+    <flow id="pt_tram_5:0" type="pt_tram" route="pt_tram_5:0" begin="253.0" end="3853.0" period="600" line="5:0" >
+        <param key="name" value="Tram 5: Baščaršija ⇒ Nedžarići"/>
+        <param key="completeness" value="0.14"/>
+    </flow>
+    <flow id="pt_tram_5:1" type="pt_tram" route="pt_tram_5:1" begin="303.0" end="3903.0" period="600" line="5:1" >
+        <param key="name" value="Tram 5: Nedžarići ⇒ Baščaršija"/>
+        <param key="completeness" value="0.12"/>
+    </flow>
+</routes>
